@@ -1,0 +1,31 @@
+@import "src/styles"
+
+header
+	h1
+		text-align: center
+		font-family: $font-title
+		font-size: 5em
+	ul
+		display: flex
+		justify-content: center
+		margin-top: -30px
+		background: #F71919
+		a
+			text-decoration: none
+			color: $color-main
+			font-weight: 800
+			&:hover
+				text-decoration: underline
+				font-size: 1.1em
+				transition: font-size .5s
+				color: black
+			li
+				float: left
+				font-family: $font-sub-title
+				padding: 1em 1.5em
+				list-style-type: none
+				&:hover
+					background-color: $color-main
+					color: black
+					transition: background-color .5s				
+					
