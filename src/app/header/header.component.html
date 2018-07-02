@@ -10,8 +10,9 @@
 		<form>
 			<div class="search">
 				<span class="fa fa-search"></span>
-				<input type="text" class="search-box" placeholder="Let's find your movie...">	
-				<app-datepicker></app-datepicker>						
+				<input type="text" class="search-box" placeholder="Let's find your movie..." name="sample" [(ngModel)]="searchMovie">	
+				<app-datepicker></app-datepicker>	
+				<button>MOViE IT!</button>			
 			</div>
 		</form>
 		<div>&nbsp;</div>

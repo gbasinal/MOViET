@@ -22,7 +22,11 @@ $color-main:	#FFEB3B;
 =columnsSection($col)
 	display: grid
 	grid-template-columns: $col
-	text-align: center
+=flexDisplay($dir, $content, $items)
+	display: flex
+	flex-direction: $dir
+	justify-content: $content
+	align-items: $items
 
 
 /////////////////////////////

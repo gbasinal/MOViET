@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-header',
@@ -9,9 +9,11 @@ import { FormsModule } from '@angular/forms';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private _data: DataService) { }
 
   ngOnInit() {
+  	
   }
 
 }
