@@ -2,9 +2,8 @@
 	<section>
 			<h2>Results: </h2>
 			<div>
-				<ul>
-					<li><span>{{ searchMovie }}</span></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reprehenderit dolore saepe rerum consectetur ab voluptatum? Culpa vitae perferendis sint quam itaque sit distinctio, quaerat expedita esse autem inventore, iste.</li>
+				<ul >
+					<li *ngFor="let movie of movies"><span>{{ movie }}</span></li>
 				</ul>
 			</div>
 	</section>
